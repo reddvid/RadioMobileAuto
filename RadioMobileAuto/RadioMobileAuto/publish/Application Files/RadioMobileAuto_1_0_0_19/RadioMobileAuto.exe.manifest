@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RadioMobileAuto.exe" version="1.0.0.19" publicKeyToken="f91b6f8ffc4cf7a0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="rmi_icon_soR_icon.ico" asmv2:publisher="Red David" asmv2:product="RadioMobileAuto" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RadioMobileAuto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RadioMobileAuto.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="200704">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.86.0.518" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QLPVkPlRkfPjPl0A5TT6QPgj2bG7Kpr+BfE5xOCjr40=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RadioMobileAuto.exe" size="30120">
+      <assemblyIdentity name="RadioMobileAuto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BS3xIv2ilXBUvkcMBwfuA7tzoMaCfGQ90qTedSCDlkc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RadioMobileAuto.exe.config" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+K0Xw31ERSGzkFzL116my249J2OxbrVrLhqkJ0Fz5hQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="rmi_icon_soR_icon.ico" size="19540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>phu2fHLA/AnKgW5VnCILlAFBAYs9HXzT0YUl14t/xNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="zips\rmw1166eng.zip" size="1217076">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KIUyeE56nEhoqBg3xF5rpVMWRomsGL5rlOBYHow/rbw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="zips\rmwcore.zip" size="1383333">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NfbbWDQkOAMftPIS3flwfBB1K7Vn/So2lF2KqbS64vk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DAVID-VN7PC\david" issuerKeyHash="d7336c05f308292ee79d0d4ca4fbdc2be7d85425" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6XHIVFS+gsNpgsXSy/gpK31q1RQ=</DigestValue></Reference></SignedInfo><SignatureValue>aYKYQMARsS98IJA916N/dXAfD8L6u4iQauci9wJp3Sr7dge3XcO6OwesCEeEvZsTJnrlYPzxxlPtM8fz7lHVg+eRqulpy96G5aLOQW4HZotUuTZaUc8Um6F/EQYJ8V4/qDfDuBnhBbIdhWz1ufw8O0vCFnTqlARm8YzAaa5RZn4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lUVJDlySUQYMPhVx0jIcG6nv9e7FF4kmCo7/8Eiaueq6EDRzFdie0PjpIm8odoqtGLhG6dATbpxgTAm+4NNVhsTahybzJAU7TVpnBtsaRwATiCUvDSoW9KtNlDUZStEdSaNhwHldnVo+RKtdCXYfxG4EyLjzLneKYwJHix3sB80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="14d56a7d2b29f8cbd2c58269c382be5454c871e9" Description="" Url=""><as:assemblyIdentity name="RadioMobileAuto.exe" version="1.0.0.19" publicKeyToken="f91b6f8ffc4cf7a0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DAVID-VN7PC\david</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Bm7xOnnDet0jfd8B9Wiff+1XnXY=</DigestValue></Reference></SignedInfo><SignatureValue>VRBh6ecGSrSmQToCPObkKX4y0U+9CS2QuGjfosQt6Ijo9ZqfDbYhVyAtYCZLu2geT3lL0VPCftYP6eQxWuItv04XvSwcBVkTurZE4DvtstK6mZBeAwos8l1xkrFAmU028oqtsRIwugNK6KNL6uci0ugYs4Fy31Xn5UpiAvk/kCs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lUVJDlySUQYMPhVx0jIcG6nv9e7FF4kmCo7/8Eiaueq6EDRzFdie0PjpIm8odoqtGLhG6dATbpxgTAm+4NNVhsTahybzJAU7TVpnBtsaRwATiCUvDSoW9KtNlDUZStEdSaNhwHldnVo+RKtdCXYfxG4EyLjzLneKYwJHix3sB80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQdZT32USaqZFJd/WQzYYLHjANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIARABBAFYASQBEAC0AVgBOADcAUABDAFwAZABhAHYAaQBkMB4XDTE4MDQxOTIzMDI0NloXDTE5MDQyMDA1MDI0NlowLTErMCkGA1UEAx4iAEQAQQBWAEkARAAtAFYATgA3AFAAQwBcAGQAYQB2AGkAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlUVJDlySUQYMPhVx0jIcG6nv9e7FF4kmCo7/8Eiaueq6EDRzFdie0PjpIm8odoqtGLhG6dATbpxgTAm+4NNVhsTahybzJAU7TVpnBtsaRwATiCUvDSoW9KtNlDUZStEdSaNhwHldnVo+RKtdCXYfxG4EyLjzLneKYwJHix3sB80CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBoFSvhGoIp2pdEvAE4CvbRUliQElFC8apoEsxliXb2DDe+XDAGjMnWb/ecRmEHB7Hww5UC1C+g//1QJnGt8kFcB9mLN5B0SO+z4CDBx7arkoU1cpyTi3DsSz+OXSqloxqusBOlOLMGp+xNHXm5Rya7l/1a+3TxRB5rsnnVTI5NrA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
