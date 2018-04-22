@@ -26,7 +26,7 @@
     <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/GetItHere/</UpdateUrl>
     <PublisherName>Red David</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
