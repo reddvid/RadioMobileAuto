@@ -35,6 +35,11 @@
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
 
+# Added for publish Click Once
+*.manifest binary
+*.application binary
+*.deploy binary
+
 ###############################################################################
 # behavior for image files
 #
