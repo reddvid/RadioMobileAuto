@@ -12,8 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>D:\GitHub\Source\Repos\RadioMobileAuto\GetItHere\</PublishUrl>
-    <Install>false</Install>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
@@ -22,12 +22,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://cdn.rawgit.com/reddvid/RadioMobileAuto/d0a6e4d7/GetItHere/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/GetItHere/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/publish/</UpdateUrl>
     <PublisherName>Red David</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>10</ApplicationRevision>
-    <ApplicationVersion>1.0.0.10</ApplicationVersion>
+    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
