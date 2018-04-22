@@ -22,11 +22,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/GetItHere/</InstallUrl>
+    <InstallUrl>https://cdn.rawgit.com/reddvid/RadioMobileAuto/d0a6e4d7/GetItHere/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/GetItHere/</UpdateUrl>
     <PublisherName>Red David</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationRevision>10</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
