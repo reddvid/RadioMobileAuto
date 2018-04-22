@@ -22,11 +22,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/publish/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/publish/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/RadioMobileAuto/RadioMobileAuto/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/reddvid/RadioMobileAuto/master/RadioMobileAuto/RadioMobileAuto/publish/</UpdateUrl>
     <PublisherName>Red David</PublisherName>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>12</ApplicationRevision>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

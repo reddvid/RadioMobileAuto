@@ -39,7 +39,7 @@
 *.manifest binary
 *.application binary
 *.deploy binary
-
+*.exe binary
 ###############################################################################
 # behavior for image files
 #
